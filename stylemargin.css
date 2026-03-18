@@ -124,3 +124,12 @@ img{
     top: 1px;
     left: 1050px;
 }
+a {
+        display: inline-block;
+        margin-top: 20px;
+        padding: 10px;
+        background-color: #ffffff;
+        color: midnightblue;
+        text-decoration: none;
+        border-radius: 5px;
+    }
