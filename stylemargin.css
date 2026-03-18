@@ -2,7 +2,7 @@ body{
     background-color: darkcyan;
 }
 h1{
-    color:beige;
+    color: beige;
     text-align: center;
     margin-top: 300px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-size: 50px;
@@ -11,7 +11,7 @@ a{
     left: 425px;
     top: -350px;
     position: relative;
-    color:beige;
+    color: beige;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
@@ -130,5 +130,5 @@ img{
         padding: 10px;
         text-decoration: none;
         border-radius: 5px;
-        color: #bege;
+        color: beige;
     }
