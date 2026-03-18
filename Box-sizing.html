@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Box-sizing</title>
+
+  <style>
+    body {
+      font-family: 'Times New Roman', Times, serif;
+      background-color: midnightblue;
+      padding: 20px;
+      color: #ffffff;
+    }
+
+    .box {
+      width: 200px;
+      padding: 20px;
+      margin-top: 10px;
+      text-align: center;
+      color: black;
+      border: 2px solid white;
+    }
+
+    .content {
+      background-color: lightcoral;
+      box-sizing: content-box;
+    }
+
+    .border {
+      background-color: lightgreen;
+      box-sizing: border-box;
+    }
+
+    a {
+        display: inline-block;
+        margin-top: 20px;
+        padding: 10px;
+        background-color: #ffffff;
+        color: midnightblue;
+        text-decoration: none;
+        border-radius: 5px;
+    }
+  </style>
+
+</head>
+<body>
+
+<h1>Box-sizing</h1>
+
+<h2>O que é Box-sizing?</h2>
+<p>A propriedade <strong>box-sizing</strong> define como o tamanho total de um elemento é calculado.</p>
+
+<h2>Exemplos</h2>
+
+<p><strong>content-box (padrão)</strong></p>
+<div class="box content">
+  content-box
+</div>
+<p>O padding e a borda são somados ao tamanho.</p>
+
+<p><strong>border-box</strong></p>
+<div class="box border">
+  border-box
+</div>
+<p>O padding e a borda já estão incluídos no tamanho.</p>
+
+<a href="index.html">⬅ Voltar</a>
+</body>
+</html>

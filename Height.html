@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Height</title>
+
+  <style>
+    body {
+      font-family: 'Times New Roman', Times, serif;
+      background-color: midnightblue;
+      padding: 20px;
+      color: #ffffff
+    }
+
+    .container {
+      height: 200px;
+      border: 2px dashed white;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+
+    .box {
+      width: 150px;
+      background-color: lightblue;
+      border: 2px solid teal;
+      margin-top: 10px;
+      text-align: center;
+      color: midnightblue
+
+    }
+
+    a {
+        display: inline-block;
+        margin-top: 20px;
+        padding: 10px;
+        background-color: #ffffff;
+        color: midnightblue;
+        text-decoration: none;
+        border-radius: 5px;
+    }
+  </style>
+
+</head>
+<body>
+
+<h1>Height</h1>
+
+<h2>O que é Height?</h2>
+<p>A propriedade <strong>height</strong> define a altura de um elemento.</p>
+<p>Ela pode utilizar valores como:</p>
+
+<h2>Exemplos</h2>
+
+<p>px (valor fixo)></p>
+<div class="box" style="height: 100px;">
+  100px
+</div>
+
+<p>% (relativo ao elemento pai)</p>
+<div class="container">
+  <div class="box" style="height: 50%;">
+    50%
+  </div>
+</div>
+
+<p>vh (relativo à altura da tela)</p>
+<div class="box" style="height: 30vh;">
+  30vh
+</div>
+
+<p>auto (valor padrão)</p>
+<div class="box" style="height: auto;">
+  Esse conteúdo cresce automaticamente conforme o texto aumenta.
+</div>
+
+<p><strong>min-height (altura mínima)</strong></p>
+<div class="box" style="min-height: 100px;">
+  Mesmo com pouco conteúdo, essa caixa tem no mínimo 100px de altura.
+</div>
+
+<p><strong>max-height (altura máxima)</strong></p>
+<div class="box" style="max-height: 100px; overflow: auto;">
+  Esse conteúdo é grande e ultrapassa o limite definido. Com max-height, a caixa não cresce além de 100px e cria rolagem.
+  <br><br>
+  Mais conteúdo...<br>
+  Mais conteúdo...<br>
+  Mais conteúdo...<br>
+</div>
+
+<a href="index.html">⬅ Voltar</a>
+</body>
+</html>
