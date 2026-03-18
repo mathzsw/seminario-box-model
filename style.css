@@ -1,0 +1,126 @@
+body{
+    background-color: darkcyan;
+}
+h1{
+    color:beige;
+    text-align: center;
+    margin-top: 300px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-size: 50px;
+}
+a{
+    left: 425px;
+    top: -350px;
+    position: relative;
+    color:beige;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+
+.titulo1{
+    left: -500px;
+    top: -250px;
+    position: relative;
+}
+.titulo2{
+    left: -450px;
+    top: -250px;
+    position: relative;
+}
+.titulo3{
+    left: -425px;
+    top: -250px;
+    position: relative;
+}
+.titulo4{
+    left: -450px;
+    top: -250px;
+    position: relative;
+}
+.titulo5{
+    left: -400px;
+    top: -250px;
+    position: relative;
+}
+h3{
+    position: relative;
+    color: rgb(133, 241, 255);
+    top: -250px;
+    left: 90px;
+    text-align: left;
+    text-align: justify;
+    width: 300px;
+}
+.exemplo{
+    color: rgb(66, 136, 153);
+    background-color: beige;
+    top: -170px;
+    left: 90px;
+    width: 400px;
+}
+.ex1{
+    position: relative;
+    color: rgb(133, 241, 255);
+    top: -470px;
+    left: 90px;
+}
+.ex2{
+    position: relative;
+    color: rgb(133, 241, 255);
+    top: -525px;
+    left: 90px;
+}
+.ex3{
+    position: relative;
+    color: rgb(133, 241, 255);
+    top: -450px;
+    left: 90px;
+}
+.ex4{
+    position: relative;
+    color: rgb(133, 241, 255);
+    top: -325px;
+    left: 90px;
+}
+.ex5{
+    position: relative;
+    color: rgb(133, 241, 255);
+    top: -390px;
+    left: 90px;
+}
+img{
+    position: relative;
+    top: -450px;
+    left: 550px;
+    width: 400px;
+}
+.img1{
+    position: relative;
+    top: -350px;
+    left: 550px;
+    width: 400px;
+}
+.img2{
+    position: relative;
+    top: -480px;
+    left: 550px;
+    width: 400px;
+}
+.img3{
+    position: relative;
+    top: -525px;
+    left: 550px;
+    width: 400px;
+}
+.imgdecima{
+    position: absolute;
+    width: 300px;
+    top: 350px;
+    left: 1px;
+}
+.imgdebaixo{
+    position: absolute;
+    width: 300px;
+    top: 1px;
+    left: 1050px;
+}
